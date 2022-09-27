@@ -86,7 +86,6 @@ form {
     /* color: #31445a; */
     font-weight: 400 ;
     display: flex;
-    
     gap: 10px;
     align-items: center;
     /* text-align: center; */
@@ -246,3 +245,28 @@ form {
 }
 
 
+@media (max-width: 600px){
+
+    .cardContainer {
+        display: grid;
+        gap: 15px;
+        /* column-gap: 5px; */
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        max-width: 600px
+    }
+
+    #submit{
+        /* padding: 5px 0px; */
+        max-width: 100%;
+        gap: 5px;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-size: 1.2rem;
+    }
+
+}
